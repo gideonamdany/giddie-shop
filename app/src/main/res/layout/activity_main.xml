@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/mBtnsms"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="sms"
+            />
+
+        <Button
+
+            android:id="@+id/mbtnemail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Email" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mBtnCamera"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Camera" />
+
+        <Button
+            android:id="@+id/mBtnShare"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mBtnMpesa"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Mpesa" />
+
+        <Button
+            android:id="@+id/buttonCall"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Call" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+</LinearLayout>
